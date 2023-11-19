@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif ;
+    color: black;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #a1cc8d;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.calculator
+{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #4F4F4F ;
+    box-shadow: 10px 10px 10px;
+
+}
+
+
+.buton
+{
+    background-color: white;
+    border: 40;
+    outline: 0;
+    width: 75px;
+    height: 75px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#displays
+{
+    background-color: #e2ead2;
+    border: 0;
+    outline: 0;
+    width: 390px;
+    height: 75px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.ACC
+{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+
+form .display input
+{
+    text-align: right;
+    flex: 1;
+    
+    box-shadow: none;
+}

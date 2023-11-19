@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="icon" type="image/jpg" href="Images/istockphoto-531633071-612x612.jpg">
+        <meta name="keywords" content="Calulator">
+        <meta name="auther" content="Ody Nwagwu">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div>
+                    <input type="text" id="displays" name="display">
+                </div>
+
+                <div>
+                    <input type="button" class = "buton" value="7" onclick="display.value += '7' ">
+                    <input type="button" class = "buton" value="8" onclick="display.value += '8' ">
+                    <input type="button" class = "buton" value="9" onclick="display.value += '9' ">
+                    <input type="button" class = "buton" value="÷" onclick="display.value += '÷' " class="divide">
+                </div>
+
+                <div>
+                    <input type="button" class = "buton" value="4" onclick="display.value += '4' ">
+                    <input type="button" class = "buton" value="5" onclick="display.value += '5' ">
+                    <input type="button" class = "buton" value="6" onclick="display.value += '6' ">
+                    <input type="button" class = "buton" value="X" onclick="display.value += '*' " class="multipy">
+                </div>
+
+                <div>
+                    <input type="button" class = "buton" value="1" onclick="display.value += '1' ">
+                    <input type="button" class = "buton" value="2" onclick="display.value += '2' ">
+                    <input type="button" class = "buton" value="3" onclick="display.value += '3' ">
+                    <input type="button" class = "buton" value="-" onclick="display.value += '-' " class="minus">
+                </div>
+
+                <div>
+                    <input type="button" class = "buton" value="0" onclick="display.value += '0' ">
+                    <input type="button" class = "buton" value="." onclick="display.value += '.' " claas="dot">
+                    <input type="button" class = "buton" value="+" onclick="display.value += '+' " class="plus">
+                    <input type="button" class = "buton" value="=" onclick="display.value = eval(display.value)"  class="equal" class="equal">
+                </div>
+
+                <div>
+                    <input type="button" class ="ACC" value="AC" onclick="display.value = '' " class="operator">
+                    <input type="button" class ="ACC" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    </body>
+</html>
