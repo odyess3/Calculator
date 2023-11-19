@@ -5,10 +5,10 @@
 ## Description
 
 Started from an augrement me and my classmate was having of which is better front-end or back-end.
-So we come up with with the idea of deliving into each other expertise, and seeing how coding like from the other perspective
+So we come up with with the idea of delving into each other expertise, and seeing how coding like from the other perspective
 
 
-The rule was to give each other an idea of an project (Hes being a caluator and mine the Snake game) and learning the language use to try repcate the project
+The rule was to give each other an idea of an project (Hes being a calculator  and mine the Snake game) and learning the language use to try replicate  the project
 
 ## Dependenices
 HTML,CSS
